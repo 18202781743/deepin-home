@@ -1,3 +1,64 @@
+deepin-home (1.6.4) UNRELEASED; urgency=medium
+
+  [ transifex-integration[bot] ]
+  * i18n: Updates for project Deepin Home (#131)
+
+  [ myml ]
+  * feat: support region server
+
+ -- myml <wurongjie@deepin.org>  Wed, 05 Mar 2025 15:00:10 +0800
+
+deepin-home (1.6.3) unstable; urgency=medium
+
+  [ myml ]
+  * refactor: format Index.qml
+  * feat: add hyperlink to global translation
+  * chore: update translation
+
+  [ transifex-integration[bot] ]
+  * i18n: Translate deepin-home-desktop.ts
+
+  [ transifex-integration[bot] ]
+  * i18n: Translate translations/deepin-home
+
+ -- myml <wurongjie@deepin.org>  Fri, 22 Nov 2024 17:29:24 +0800
+
+deepin-home (1.6.2) unstable; urgency=medium
+
+  [ transifex-integration[bot] ]
+  * i18n: Translate deepin-home-desktop.ts in hu
+  * i18n: Translate deepin-home-desktop.ts in ro
+  * i18n: Translate deepin-home-desktop.ts in ca
+  * i18n: Translate deepin-home-desktop.ts in nl
+  * i18n: Translate deepin-home-desktop.ts in sq
+  * i18n: Translate deepin-home-desktop.ts in fi
+  * i18n: Translate deepin-home-desktop.ts in es
+  * i18n: Translate deepin-home-desktop.ts in de
+  * i18n: Translate deepin-home-desktop.ts in es
+  * i18n: Translate deepin-home.ts in gl_ES
+  * i18n: Translate deepin-home.ts in gl_ES
+  * i18n: Translate deepin-home-daemon.ts in gl_ES
+  * i18n: Translate deepin-home-desktop.ts in gl_ES
+  * i18n: Translate deepin-home.ts in gl_ES
+
+  [ myml ]
+  * feat: remove custom http cache class
+  * fix: the feedback reply link cannot opened
+
+ -- myml <wurongjie@deepin.org>  Fri, 27 Sep 2024 14:55:37 +0800
+
+deepin-home (1.6.0) unstable; urgency=medium
+
+  * feat: disable auto start by default
+
+ -- myml <wurongjie@deepin.org>  Thu, 08 Aug 2024 10:30:24 +0800
+
+deepin-home (1.5.14) unstable; urgency=medium
+
+  * feat: append os version to system info
+
+ -- myml <wurongjie@deepin.org>  Fri, 02 Aug 2024 13:43:02 +0800
+
 deepin-home (1.5.13) unstable; urgency=medium
 
   * fix: prevent window from maximizing(Issue: https://github.com/linuxdeepin/developer-center/issues/6192)

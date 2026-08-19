@@ -3,49 +3,49 @@
     <name>API</name>
     <message>
         <source>Please log in with your Deepin ID.</source>
-        <translation type="unfinished"/>
+        <translation>Lütfen Deepin ID&apos;nizle giriş yapın.</translation>
     </message>
     <message>
         <source>You need to log in to proceed with the subsequent operations.</source>
-        <translation type="unfinished"/>
+        <translation>Sonraki işlemlere devam etmek için oturum açmanız gerekir.</translation>
     </message>
 </context>
 <context>
     <name>APIProxy</name>
     <message>
         <source>You have been making too many requests, Please try again later.</source>
-        <translation type="unfinished"/>
+        <translation>Çok fazla istekte bulunuyorsunuz, lütfen daha sonra tekrar deneyin.</translation>
     </message>
     <message>
         <source>You need to login to proceed with the subsequent operations.</source>
-        <translation type="unfinished"/>
+        <translation>Sonraki işlemlere devam etmek için giriş yapmanız gerekir.</translation>
     </message>
     <message>
         <source>Network error, please try later.</source>
-        <translation type="unfinished"/>
+        <translation>Ağ hatası, lütfen daha sonra deneyin.</translation>
     </message>
 </context>
 <context>
     <name>AccountButton</name>
     <message>
+        <source>Unlogged</source>
+        <translation>Günlüğe Kaydedilmemiş</translation>
+    </message>
+    <message>
         <source>My Favorites</source>
-        <translation type="unfinished"/>
+        <translation>Favorilerim</translation>
+    </message>
+    <message>
+        <source>My Feedbacks</source>
+        <translation>Geri Bildirimlerim</translation>
     </message>
     <message>
         <source>Sign out</source>
         <translation>Çıkış</translation>
     </message>
     <message>
-        <source>Unlogged</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <source>Sign in</source>
         <translation>Giriş</translation>
-    </message>
-    <message>
-        <source>My Feedbacks</source>
-        <translation>Geri Bildirimlerim</translation>
     </message>
 </context>
 <context>
@@ -60,26 +60,26 @@
     </message>
     <message>
         <source>Unfavorite</source>
-        <translation type="unfinished"/>
+        <translation>Favorilerden kaldır</translation>
     </message>
     <message>
         <source>Favorite</source>
-        <translation type="unfinished"/>
+        <translation>Favorilere ekle</translation>
     </message>
     <message>
         <source>Cancel the urge</source>
-        <translation type="unfinished"/>
+        <translation>İsteği iptal et</translation>
     </message>
     <message>
         <source>Urge</source>
-        <translation type="unfinished"/>
+        <translation>İstek</translation>
     </message>
 </context>
 <context>
     <name>Card1</name>
     <message>
         <source>Coming</source>
-        <translation type="unfinished"/>
+        <translation>Gelen</translation>
     </message>
 </context>
 <context>
@@ -93,43 +93,43 @@
     <name>Filter</name>
     <message>
         <source>Search</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Bug</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Suggestions</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Newest</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Favorite</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Urge</source>
-        <translation type="unfinished"/>
+        <translation>Ara</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation type="unfinished"/>
+        <translation>Tür:</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Hepsi</translation>
+    </message>
+    <message>
+        <source>Bug</source>
+        <translation>Hata</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>Öneriler</translation>
     </message>
     <message>
         <source>Version:</source>
-        <translation type="unfinished"/>
+        <translation>Sürüm:</translation>
     </message>
     <message>
         <source>Sort:</source>
-        <translation type="unfinished"/>
+        <translation>Sırala:</translation>
+    </message>
+    <message>
+        <source>Newest</source>
+        <translation>En Yeni</translation>
+    </message>
+    <message>
+        <source>Favorite</source>
+        <translation>Favori</translation>
+    </message>
+    <message>
+        <source>Urge</source>
+        <translation>İstek</translation>
     </message>
 </context>
 <context>
@@ -140,15 +140,15 @@
     </message>
     <message>
         <source>Discuss and share here</source>
-        <translation type="unfinished"/>
+        <translation>Burada tartışın ve paylaşın</translation>
     </message>
     <message>
         <source>Bug Report</source>
-        <translation type="unfinished"/>
+        <translation>Hata raporu</translation>
     </message>
     <message>
         <source>Report issues you found</source>
-        <translation type="unfinished"/>
+        <translation>Bulduğun sorunları rapor et</translation>
     </message>
     <message>
         <source>Suggestions</source>
@@ -164,7 +164,7 @@
     </message>
     <message>
         <source>Questionaire</source>
-        <translation type="unfinished"/>
+        <translation>Anket</translation>
     </message>
     <message>
         <source>Join US</source>
@@ -172,33 +172,37 @@
     </message>
     <message>
         <source>Internal Testing</source>
-        <translation type="unfinished"/>
+        <translation>Dahili Test</translation>
+    </message>
+    <message>
+        <source>Global Translation</source>
+        <translation>Küresel Tercüme</translation>
     </message>
     <message>
         <source>Community News</source>
-        <translation type="unfinished"/>
+        <translation>Topluluk Haberleri</translation>
     </message>
 </context>
 <context>
     <name>List</name>
+    <message>
+        <source>No more items</source>
+        <translation>Daha fazla ürün yok</translation>
+    </message>
     <message>
         <source>Messages</source>
         <translation>İletiler</translation>
     </message>
     <message>
         <source>Questionaires</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>No more items</source>
-        <translation type="unfinished"/>
+        <translation>Anketler</translation>
     </message>
 </context>
 <context>
     <name>MyTitleBar</name>
     <message>
         <source>Launch at system startup</source>
-        <translation type="unfinished"/>
+        <translation>Sistem başlangıcında başlat</translation>
     </message>
     <message>
         <source>About</source>
@@ -214,7 +218,7 @@
     </message>
     <message>
         <source>Quick login to forums, submit suggestions, and report bugs.</source>
-        <translation type="unfinished"/>
+        <translation>Forumlara hızlı giriş yapın, öneri gönderin ve hataları bildirin.</translation>
     </message>
 </context>
 <context>
@@ -261,15 +265,15 @@
     <name>Questionnaire</name>
     <message>
         <source>No questionaires yet.</source>
-        <translation type="unfinished"/>
+        <translation>Henüz soru sorulmadı.</translation>
     </message>
     <message>
         <source>Expired on: %1</source>
-        <translation type="unfinished"/>
+        <translation>Bitiş zamanı: %1</translation>
     </message>
     <message>
         <source>Fill In</source>
-        <translation type="unfinished"/>
+        <translation>Formu doldur</translation>
     </message>
 </context>
 <context>
@@ -277,6 +281,10 @@
     <message>
         <source>Pending</source>
         <translation>Bekleyen</translation>
+    </message>
+    <message>
+        <source>Reproducing</source>
+        <translation>Yeniden Üretim</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -303,79 +311,79 @@
         <translation>Tamamlanan</translation>
     </message>
     <message>
-        <source>Reproducing</source>
-        <translation>Yeniden Üretim</translation>
-    </message>
-    <message>
         <source>The issue has not been processed and will not be displayed in the public listing.</source>
-        <translation type="unfinished"/>
+        <translation>Sorun işlenmedi. Herkese açık listede gösterilmeyecek.</translation>
     </message>
     <message>
         <source>Currently unable to identify the cause; continuous monitoring and investigation are required.</source>
-        <translation type="unfinished"/>
+        <translation>Şu anda nedeni belirlenemiyor; Sürekli izleme ve soruşturma gereklidir.</translation>
     </message>
     <message>
         <source>The issue has been reproduced and the root cause has been identified.</source>
-        <translation type="unfinished"/>
+        <translation>Sorun yeniden oluşturuldu ve kök neden belirlendi.</translation>
     </message>
     <message>
         <source>The issue is not a bug or of a different nature.</source>
-        <translation type="unfinished"/>
+        <translation>Bu sorun bir hata veya farklı bir nitelik değildir.</translation>
     </message>
     <message>
         <source>The issue has been resolved and awaiting formal release</source>
-        <translation type="unfinished"/>
+        <translation>Sorun çözüldü ve resmi olarak yayınlanmayı bekliyor</translation>
     </message>
     <message>
         <source>The requirement has not been processed and will not be displayed in the public listing</source>
-        <translation type="unfinished"/>
+        <translation>Gereksinim işlenmedi. Genel listede gösterilmeyecek</translation>
     </message>
     <message>
         <source>The issue has been acknowledged and is being internally assessed</source>
-        <translation type="unfinished"/>
+        <translation>Sorun kabul edildi ve dahili olarak değerlendiriliyor</translation>
     </message>
     <message>
         <source>Included in the plans for a future release</source>
-        <translation type="unfinished"/>
+        <translation>Gelecekteki bir sürüm için planlara dahil edildi</translation>
     </message>
     <message>
         <source>The requirement is either not accepted or unable to be addressed</source>
-        <translation type="unfinished"/>
+        <translation>Gereksinim kabul edilmiyor veya ele alınamıyor</translation>
     </message>
     <message>
         <source>Development work is finished, awaiting formal release</source>
-        <translation type="unfinished"/>
+        <translation>Geliştirme çalışmaları tamamlandı ve resmi olarak yayınlanmayı bekliyor</translation>
     </message>
 </context>
 <context>
     <name>Submit</name>
     <message>
         <source>Unable to add a screenshot.</source>
-        <translation type="unfinished"/>
+        <translation>Ekran görüntüsü eklenemiyor.</translation>
     </message>
     <message>
         <source>The image file size should be less than 1MB.</source>
-        <translation type="unfinished"/>
+        <translation>Görüntü dosyasının boyutu 1 MB&apos;tan küçük olmalıdır.</translation>
     </message>
     <message>
         <source>The image file format is not supported for uploading.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Submit Feedback</source>
-        <translation>Geri Bildirim Gönder</translation>
+        <translation>Görüntü dosyası formatı yükleme için desteklenmiyor.</translation>
     </message>
     <message>
         <source>[Current Status of the Product]: 
 [Desired Product]: </source>
-        <translation type="unfinished"/>
+        <translation>[Ürünün Mevcut Durumu]: 
+[İstenen Ürün]:</translation>
     </message>
     <message>
         <source>[Preconditions]: 
 [Reproducibility Steps]: 
 [Expected Results]: 
 [Actual Results]: </source>
-        <translation type="unfinished"/>
+        <translation>[Ön koşullar]: 
+[Tekrarlanabilirlik Adımları]: 
+[Beklenen Sonuçlar]: 
+[Gerçek Sonuçlar]:</translation>
+    </message>
+    <message>
+        <source>Submit Feedback</source>
+        <translation>Geri Bildirim Gönder</translation>
     </message>
     <message>
         <source>Type：</source>
@@ -395,19 +403,27 @@
     </message>
     <message>
         <source>Please provide a brief description of your issue</source>
-        <translation type="unfinished"/>
+        <translation>Lütfen sorununuzla ilgili kısa bir açıklama yapın</translation>
     </message>
     <message>
         <source>Content：</source>
         <translation>İçerik:</translation>
     </message>
     <message>
+        <source>Do not fill in multiple issues in one feedback</source>
+        <translation>Tek bir geri bildirimde birden fazla konuyu doldurmayın</translation>
+    </message>
+    <message>
         <source>Do not fill in multiple requirements in one feedback</source>
-        <translation type="unfinished"/>
+        <translation>Tek bir geri bildirimde birden fazla gereksinimi doldurmayın</translation>
     </message>
     <message>
         <source>Email：</source>
         <translation>E-posta:</translation>
+    </message>
+    <message>
+        <source>Please enter your email</source>
+        <translation>Lütfen e-postanızı giriniz</translation>
     </message>
     <message>
         <source>System Version:</source>
@@ -419,7 +435,7 @@
     </message>
     <message>
         <source>Upload &lt;a href=&apos;home://sysinfo&apos;&gt;device information&lt;/a&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;a href=&apos;home://sysinfo&apos;&gt;Cihaz bilgilerini&lt;/a&gt; karşıya yükle</translation>
     </message>
     <message>
         <source>Screenshots：</source>
@@ -427,19 +443,19 @@
     </message>
     <message>
         <source>Image files</source>
-        <translation type="unfinished"/>
+        <translation>Görüntü dosyaları</translation>
     </message>
     <message>
         <source>Drag and drop files or click buttons to add pictures, up to three</source>
-        <translation type="unfinished"/>
+        <translation>Dosyaları sürükleyip bırakın veya resim eklemek için butonlara tıklayın, en fazla üç tane</translation>
     </message>
     <message>
         <source>Are you sure you want to exit the feedback submission?</source>
-        <translation type="unfinished"/>
+        <translation>Geri bildirim gönderiminden çıkmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <source>The feedback content will not be saved.</source>
-        <translation type="unfinished"/>
+        <translation>Geri bildirim içeriği kaydedilmeyecektir.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -455,19 +471,19 @@
     </message>
     <message>
         <source>Unable to submit feedback.</source>
-        <translation type="unfinished"/>
+        <translation>Geri bildirim gönderilemiyor.</translation>
     </message>
     <message>
         <source>Please provide the title and content of your feedback.</source>
-        <translation type="unfinished"/>
+        <translation>Lütfen geri bildiriminizin başlığını ve içeriğini belirtin .</translation>
     </message>
     <message>
         <source>Please provide the title of your feedback.</source>
-        <translation type="unfinished"/>
+        <translation>Lütfen geri bildiriminizin başlığını belirtin.</translation>
     </message>
     <message>
         <source>Please provide the content of your feedback.</source>
-        <translation type="unfinished"/>
+        <translation>Lütfen geri bildiriminizin içeriğini belirtin.</translation>
     </message>
     <message>
         <source>Incorrect email address entered.</source>
@@ -477,32 +493,24 @@
         <source>Device Information</source>
         <translation>Aygıt Bilgisi</translation>
     </message>
-    <message>
-        <source>Please enter your email</source>
-        <translation>Lütfen e-postanızı giriniz</translation>
-    </message>
-    <message>
-        <source>Do not fill in multiple issues in one feedback</source>
-        <translation>Tek bir geri bildirimde birden fazla konuyu doldurmayın</translation>
-    </message>
 </context>
 <context>
     <name>TabButton</name>
     <message>
         <source>Feedback Hub</source>
-        <translation type="unfinished"/>
+        <translation>Geri Bildirim Merkezi</translation>
     </message>
     <message>
         <source>My Feedbacks</source>
-        <translation type="unfinished"/>
+        <translation>Geri Bildirimlerim</translation>
     </message>
     <message>
         <source>My Favorites</source>
-        <translation type="unfinished"/>
+        <translation>Favorilerim</translation>
     </message>
     <message>
         <source>My Urged</source>
-        <translation type="unfinished"/>
+        <translation>İsteklerim</translation>
     </message>
 </context>
 </TS>

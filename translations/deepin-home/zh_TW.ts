@@ -14,38 +14,38 @@
     <name>APIProxy</name>
     <message>
         <source>You have been making too many requests, Please try again later.</source>
-        <translation type="unfinished"/>
+        <translation>您的操作太頻繁了，請稍後再試。</translation>
     </message>
     <message>
         <source>You need to login to proceed with the subsequent operations.</source>
-        <translation type="unfinished"/>
+        <translation>您需要登入才能進行後續操作。</translation>
     </message>
     <message>
         <source>Network error, please try later.</source>
-        <translation type="unfinished"/>
+        <translation>網路錯誤，請稍後再試</translation>
     </message>
 </context>
 <context>
     <name>AccountButton</name>
     <message>
+        <source>Unlogged</source>
+        <translation>未登入</translation>
+    </message>
+    <message>
         <source>My Favorites</source>
         <translation>我的收藏</translation>
+    </message>
+    <message>
+        <source>My Feedbacks</source>
+        <translation>我的回饋</translation>
     </message>
     <message>
         <source>Sign out</source>
         <translation>退出帳號</translation>
     </message>
     <message>
-        <source>Unlogged</source>
-        <translation>未登入</translation>
-    </message>
-    <message>
         <source>Sign in</source>
         <translation>登入帳號</translation>
-    </message>
-    <message>
-        <source>My Feedbacks</source>
-        <translation>我的回饋</translation>
     </message>
 </context>
 <context>
@@ -93,43 +93,43 @@
     <name>Filter</name>
     <message>
         <source>Search</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>All</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Bug</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Suggestions</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Newest</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Favorite</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Urge</source>
-        <translation type="unfinished"/>
+        <translation>搜索</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation type="unfinished"/>
+        <translation>類型：</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>Bug</source>
+        <translation>BUG</translation>
+    </message>
+    <message>
+        <source>Suggestions</source>
+        <translation>需求回饋</translation>
     </message>
     <message>
         <source>Version:</source>
-        <translation type="unfinished"/>
+        <translation>版本：</translation>
     </message>
     <message>
         <source>Sort:</source>
-        <translation type="unfinished"/>
+        <translation>排序：</translation>
+    </message>
+    <message>
+        <source>Newest</source>
+        <translation>最新</translation>
+    </message>
+    <message>
+        <source>Favorite</source>
+        <translation>收藏</translation>
+    </message>
+    <message>
+        <source>Urge</source>
+        <translation>催一下</translation>
     </message>
 </context>
 <context>
@@ -175,6 +175,10 @@
         <translation>內測交流</translation>
     </message>
     <message>
+        <source>Global Translation</source>
+        <translation>全球化翻譯</translation>
+    </message>
+    <message>
         <source>Community News</source>
         <translation>社群動態</translation>
     </message>
@@ -182,16 +186,16 @@
 <context>
     <name>List</name>
     <message>
+        <source>No more items</source>
+        <translation>沒有更多了</translation>
+    </message>
+    <message>
         <source>Messages</source>
         <translation>系統消息</translation>
     </message>
     <message>
         <source>Questionaires</source>
         <translation>調查問卷</translation>
-    </message>
-    <message>
-        <source>No more items</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -279,6 +283,10 @@
         <translation>待處理</translation>
     </message>
     <message>
+        <source>Reproducing</source>
+        <translation>復現中</translation>
+    </message>
+    <message>
         <source>Confirmed</source>
         <translation>已確認</translation>
     </message>
@@ -301,10 +309,6 @@
     <message>
         <source>Completed</source>
         <translation>已完成</translation>
-    </message>
-    <message>
-        <source>Reproducing</source>
-        <translation>復現中</translation>
     </message>
     <message>
         <source>The issue has not been processed and will not be displayed in the public listing.</source>
@@ -362,10 +366,6 @@
         <translation>圖片的檔案格式不支援上傳</translation>
     </message>
     <message>
-        <source>Submit Feedback</source>
-        <translation>提交回饋</translation>
-    </message>
-    <message>
         <source>[Current Status of the Product]: 
 [Desired Product]: </source>
         <translation>【產品現狀】：
@@ -380,6 +380,10 @@
 【復現步驟】：
 【預期結果】： 
 【實際結果】： </translation>
+    </message>
+    <message>
+        <source>Submit Feedback</source>
+        <translation>提交回饋</translation>
     </message>
     <message>
         <source>Type：</source>
@@ -406,12 +410,20 @@
         <translation>內容：</translation>
     </message>
     <message>
+        <source>Do not fill in multiple issues in one feedback</source>
+        <translation>請勿在一條回饋中填寫多個問題</translation>
+    </message>
+    <message>
         <source>Do not fill in multiple requirements in one feedback</source>
         <translation>請勿在一條回饋中填寫多條需求</translation>
     </message>
     <message>
         <source>Email：</source>
         <translation>信箱：</translation>
+    </message>
+    <message>
+        <source>Please enter your email</source>
+        <translation>請輸入您的電子郵件</translation>
     </message>
     <message>
         <source>System Version:</source>
@@ -480,14 +492,6 @@
     <message>
         <source>Device Information</source>
         <translation>裝置訊息</translation>
-    </message>
-    <message>
-        <source>Please enter your email</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>Do not fill in multiple issues in one feedback</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 <context>

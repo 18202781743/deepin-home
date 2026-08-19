@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2022 UnionTech Software Technology Co., Ltd.
+// SPDX-FileCopyrightText: 2022-2026 UnionTech Software Technology Co., Ltd.
 
 // SPDX-License-Identifier: LGPL-3.0-or-later
 
@@ -15,10 +15,11 @@ API::API(QString cacheName, QObject *parent)
     : QObject(parent)
 {
     init();
-    auto diskCache = new DiskCacheShare(this);
-    auto cacheDir = QStandardPaths::writableLocation(QStandardPaths::CacheLocation);
-    diskCache->setCacheDirectory(cacheDir + "/" + cacheName);
-    m_http->setCache(diskCache);
+    auto cache = new QNetworkDiskCache(parent);
+    auto cacheDir = QStandardPaths::writableLocation(QStandardPaths::CacheLocation)+"/api_http_cache";
+    cache->setCacheDirectory(cacheDir);
+    qDebug() << "api cache dir:" << cacheDir << QThread::currentThreadId();
+    m_http->setCache(cache);
 }
 
 API::API(QNetworkDiskCache *cacheDisk, QObject *parent)
@@ -64,7 +65,7 @@ T API::waitSignal(const typename QtPrivate::FunctionPointer<Func1>::Object *send
     });
     connect(sender, errSignal, &loop, [this, &loop, &exp](auto *worker, auto err_type, auto err_str) {
         exp.err_code = worker->getHttpResponseCode();
-        exp.err_type = err_type;
+        exp.err_type = QString::number(static_cast<int>(err_type));
         exp.err_msg = err_str;
         if (exp.err_code == 0) {
             exp.err_code = -1;

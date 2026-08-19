@@ -3,7 +3,7 @@
     <name>API</name>
     <message>
         <source>Please log in with your Deepin ID.</source>
-        <translation>Inicie sesión con su ID de Deepin.</translation>
+        <translation>Inicie sesión con su Deepin ID.</translation>
     </message>
     <message>
         <source>You need to log in to proceed with the subsequent operations.</source>
@@ -14,7 +14,7 @@
     <name>APIProxy</name>
     <message>
         <source>You have been making too many requests, Please try again later.</source>
-        <translation>Has hacho demasiadas solicitudes. inténtelo de nuevo más tarde.</translation>
+        <translation>Ha hecho demasiadas solicitudes. inténtelo de nuevo más tarde.</translation>
     </message>
     <message>
         <source>You need to login to proceed with the subsequent operations.</source>
@@ -28,24 +28,24 @@
 <context>
     <name>AccountButton</name>
     <message>
+        <source>Unlogged</source>
+        <translation>No registrado</translation>
+    </message>
+    <message>
         <source>My Favorites</source>
         <translation>Mis favoritos</translation>
+    </message>
+    <message>
+        <source>My Feedbacks</source>
+        <translation>Mis comentarios</translation>
     </message>
     <message>
         <source>Sign out</source>
         <translation>Cerrar sesión </translation>
     </message>
     <message>
-        <source>Unlogged</source>
-        <translation>No registrado</translation>
-    </message>
-    <message>
         <source>Sign in</source>
         <translation>Iniciar sesión</translation>
-    </message>
-    <message>
-        <source>My Feedbacks</source>
-        <translation>Mis comentarios</translation>
     </message>
 </context>
 <context>
@@ -96,6 +96,10 @@
         <translation>Buscar</translation>
     </message>
     <message>
+        <source>Type:</source>
+        <translation>Tipo:</translation>
+    </message>
+    <message>
         <source>All</source>
         <translation>Todo</translation>
     </message>
@@ -108,6 +112,14 @@
         <translation>Sugerencias</translation>
     </message>
     <message>
+        <source>Version:</source>
+        <translation>Versión:</translation>
+    </message>
+    <message>
+        <source>Sort:</source>
+        <translation>Clasificar:</translation>
+    </message>
+    <message>
         <source>Newest</source>
         <translation>Lo mas nuevo</translation>
     </message>
@@ -118,18 +130,6 @@
     <message>
         <source>Urge</source>
         <translation>Solicitar</translation>
-    </message>
-    <message>
-        <source>Type:</source>
-        <translation>Tipo:</translation>
-    </message>
-    <message>
-        <source>Version:</source>
-        <translation>Versión:</translation>
-    </message>
-    <message>
-        <source>Sort:</source>
-        <translation>Clasificar:</translation>
     </message>
 </context>
 <context>
@@ -175,6 +175,10 @@
         <translation>Pruebas internas</translation>
     </message>
     <message>
+        <source>Global Translation</source>
+        <translation>Traducción global</translation>
+    </message>
+    <message>
         <source>Community News</source>
         <translation>Noticias de la Comunidad</translation>
     </message>
@@ -182,16 +186,16 @@
 <context>
     <name>List</name>
     <message>
+        <source>No more items</source>
+        <translation>No hay más artículos</translation>
+    </message>
+    <message>
         <source>Messages</source>
         <translation>Mensajes</translation>
     </message>
     <message>
         <source>Questionaires</source>
         <translation>Preguntas</translation>
-    </message>
-    <message>
-        <source>No more items</source>
-        <translation>No hay más artículos</translation>
     </message>
 </context>
 <context>
@@ -279,6 +283,10 @@
         <translation>Pendiente</translation>
     </message>
     <message>
+        <source>Reproducing</source>
+        <translation>Reproduciendo</translation>
+    </message>
+    <message>
         <source>Confirmed</source>
         <translation>Confirmado</translation>
     </message>
@@ -301,10 +309,6 @@
     <message>
         <source>Completed</source>
         <translation>Terminado</translation>
-    </message>
-    <message>
-        <source>Reproducing</source>
-        <translation>Reproduciendo</translation>
     </message>
     <message>
         <source>The issue has not been processed and will not be displayed in the public listing.</source>
@@ -351,7 +355,7 @@
     <name>Submit</name>
     <message>
         <source>Unable to add a screenshot.</source>
-        <translation>No se puede agregar una captura de pantalla.</translation>
+        <translation>No se puede añadir una captura de pantalla.</translation>
     </message>
     <message>
         <source>The image file size should be less than 1MB.</source>
@@ -360,10 +364,6 @@
     <message>
         <source>The image file format is not supported for uploading.</source>
         <translation>El formato de archivo de imagen no es compatible.</translation>
-    </message>
-    <message>
-        <source>Submit Feedback</source>
-        <translation>Enviar comentario</translation>
     </message>
     <message>
         <source>[Current Status of the Product]: 
@@ -380,6 +380,10 @@
 [Pasos de reproducibilidad]:
 [Resultados previstos]:
 [Resultados actuales]:</translation>
+    </message>
+    <message>
+        <source>Submit Feedback</source>
+        <translation>Enviar comentario</translation>
     </message>
     <message>
         <source>Type：</source>
@@ -406,12 +410,20 @@
         <translation>Contenido:</translation>
     </message>
     <message>
+        <source>Do not fill in multiple issues in one feedback</source>
+        <translation>No rellene varias cuestiones en una sola respuesta</translation>
+    </message>
+    <message>
         <source>Do not fill in multiple requirements in one feedback</source>
         <translation>No envié múltiples pedidos en un solo comentario</translation>
     </message>
     <message>
         <source>Email：</source>
         <translation>Correo electrónico:</translation>
+    </message>
+    <message>
+        <source>Please enter your email</source>
+        <translation>Introduzca su correo electrónico</translation>
     </message>
     <message>
         <source>System Version:</source>
@@ -435,7 +447,7 @@
     </message>
     <message>
         <source>Drag and drop files or click buttons to add pictures, up to three</source>
-        <translation>Arrastre y suelte archivos o haga clic en los botones para agregar imágenes, hasta tres</translation>
+        <translation>Arrastre y suelte archivos o haga clic en los botones para añadir imágenes, hasta tres</translation>
     </message>
     <message>
         <source>Are you sure you want to exit the feedback submission?</source>
@@ -480,14 +492,6 @@
     <message>
         <source>Device Information</source>
         <translation>Información del dispositivo</translation>
-    </message>
-    <message>
-        <source>Please enter your email</source>
-        <translation>Introduzca su correo electrónico</translation>
-    </message>
-    <message>
-        <source>Do not fill in multiple issues in one feedback</source>
-        <translation>No rellene varias cuestiones en una sola respuesta</translation>
     </message>
 </context>
 <context>
